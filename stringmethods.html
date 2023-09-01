@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Methods Example</title>
+</head>
+
+<body>
+    <h1>String Methods Example</h1>
+
+    <script>
+        var exampleString = "   Hello, My name is Nathan   ";
+
+        var length = exampleString.length;
+        var uppercase = exampleString.toUpperCase();
+        var lowercase = exampleString.toLowerCase();
+        var trimmedString = exampleString.trim();
+        var indexOfComma = exampleString.indexOf(",");
+
+        document.write("<p>This is the original String: " + exampleString + "</p>");
+        document.write("<p>Length of the string: " + length + "</p>");
+        document.write("<p>My name converted to uppercase: " + uppercase + "</p>");
+        document.write("<p>My name converted to lowercase: " + lowercase + "</p>");
+        document.write("<p>Trimmed string: " + trimmedString + "</p>");
+        document.write("<p>Index of ',' character: " + indexOfComma + "</p>");
+    </script>
+</body>

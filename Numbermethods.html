@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Methods Example</title>
+</head>
+
+<body>
+    <h1>Number Methods Example</h1>
+
+    <script>
+        var exampleNumber = 28.7623;
+
+        var fixedToTwoDecimals = exampleNumber.toFixed(2);
+        var exponentialNotation = exampleNumber.toExponential(3);
+        var convertedToString = exampleNumber.toString();
+        var roundedNumber = Math.round(exampleNumber);
+        var squaredNumber = Math.pow(exampleNumber, 2);
+
+        document.write("<p>This is the original Number: " + exampleNumber + "</p>");
+        document.write("<p>This is the example number fixed to two decimals: " + fixedToTwoDecimals + "</p>");
+        document.write("<p>The is the example number as exponential notation: " + exponentialNotation + "</p>");
+        document.write("<p>The is the example number converted to string: " + convertedToString + "</p>");
+        document.write("<p>The is the example number rounded: " + roundedNumber + "</p>");
+        document.write("<p>This is the example number squared: " + squaredNumber + "</p>");
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Array Methods Example</title>
+</head>
+
+<body>
+    <h1>Array Methods Example</h1>
+
+    <script>
+        var exampleArray = [42, 15, 7, 23, 56];
+        var stringArray = ["Nathan", "John", "Mike", "David", "Joe"];
+
+        var arrayLength = exampleArray.length;
+        var reversedArray = exampleArray.slice().reverse();
+        var sortedArray = exampleArray.slice().sort((a, b) => a - b);
+        var joinedString = stringArray.join(", ");
+        var indexOfJoe = stringArray.indexOf("Joe");
+        var poppedElement = exampleArray.pop();
+
+        document.write("<p>Original Number Array: " + exampleArray + "</p>");
+        document.write("<p>Array Length: " + arrayLength + "</p>");
+        document.write("<p>Reversed Array: " + reversedArray + "</p>");
+        document.write("<p>Sorted Array: " + sortedArray + "</p>");
+        document.write("<p>Joined String Array: " + joinedString + "</p>");
+        document.write("<p>Index of 'Joe': " + indexOfJoe + "</p>");
+        document.write("<p>Popped Element: " + poppedElement + "</p>");
+    </script>
+</body>
+
+</html>
